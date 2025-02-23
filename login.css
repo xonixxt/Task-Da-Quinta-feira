@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(47, 48, 42);
+    margin: 0;
+    padding-top: 50px;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2em;
+}
+
+form {
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 40px 10px gold;
+    padding: 30px;
+    width: 900px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(251, 236, 152);
+}
+
+img {
+    width: 300px;
+}
