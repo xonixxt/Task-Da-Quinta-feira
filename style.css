@@ -2,7 +2,6 @@ body{
     background-color: rgb(47, 48, 42);
     margin: 0;
     color: white;
-    overflow: hidden;
 }
 header{
     display: flex;
@@ -36,7 +35,6 @@ section{
 }
 button{
     display: flex;
-    position: fixed;
     cursor: pointer;
     justify-content: center;
     margin: 30px 0px 0px 500px;
