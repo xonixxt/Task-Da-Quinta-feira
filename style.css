@@ -64,3 +64,16 @@ bottom: 180px;
 a{
     text-decoration: none;
 }
+
+input{
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+#botaocor{
+    padding: 1px;
+}
+#resultadocor{
+    border: 1px solid;
+
+}
