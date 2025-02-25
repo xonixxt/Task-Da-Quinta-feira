@@ -1,8 +1,8 @@
 function mudarCor(){
-   let cor = document.getElementById(`selecionarcor`).value
+   let cor = document.getElementById(`selecionarcor`).value.toLowerCase();
     switch (cor){
 
-        case `vermelho`:
+        case `vermelho`.toLowerCase():
             document.body.style.backgroundColor=`red`
             break;
 
@@ -45,4 +45,5 @@ document.getElementById(`botaocor`).onclick = executarAsDuas;
 
 document.getElementById(`selecionarcor`).onfocus = function() {
     document.getElementById(`selecionarcor`).value = ``;
+    document.getElementById("resultadocor").textContent = ``;
 }
