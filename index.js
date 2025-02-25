@@ -42,7 +42,7 @@ function mudarCor(){
    let cor = document.getElementById(`selecionarcor`).value.toLowerCase();
     switch (cor){
 
-        case `vermelho`.toLowerCase():
+        case `vermelho`:
             document.body.style.backgroundColor=`red`
             break;
 
