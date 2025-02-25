@@ -77,3 +77,14 @@ input{
     border: 1px solid;
 
 }
+#dia{
+    display: flex;
+    font-size: 18px;
+    border: 1px solid;
+    box-shadow: -1px 1px 10px 1px  gold;
+    padding: 20px;
+    font-size: 20px;
+}
+.logodia{
+    padding-left: 20px;
+}
